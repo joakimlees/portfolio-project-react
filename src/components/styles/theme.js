@@ -5,6 +5,8 @@ export const theme = {
     coral: "#33fff1",
     orange: "#ff5c0a",
     yellow: "#ffeb0a",
+    black: "#000",
+    white: "#fff",
   },
   font: {
     family: {
