@@ -8,4 +8,10 @@ export const Footer = styled.footer`
   padding: 50px 20px;
   border-top: solid;
   border-color: ${({ theme }) => theme.color.purple};
+
+  a {
+    color: ${({ theme }) => theme.color.yellow};
+    font-family: ${({ theme }) => theme.font.family.links};
+    text-decoration: none;
+  }
 `;
