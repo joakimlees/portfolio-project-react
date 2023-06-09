@@ -1,18 +1,17 @@
 export const theme = {
   color: {
-    primary: "#003940",
-    dark: "#161616",
-    purple: "#5F2B99",
-    red: "#A82608",
-    green: "#97E650",
-    yellow: "#FFBC4A",
+    dark: "#101d30",
+    purple: "#311e63",
+    coral: "#33fff1",
+    orange: "#ff5c0a",
+    yellow: "#ffeb0a",
   },
   font: {
     family: {
-      headings: "Tinos, Georgia, Garmond",
-      paragraphs: "'Open Sans', Verdana, Arial",
-      buttons: "'Open Sans', Verdana, Arial",
-      links: "'Open Sans', Verdana, Arial",
+      headings: "poppins, Tinos, Georgia, Garmond",
+      paragraphs: "'Anonymous Pro', 'Open Sans', Verdana, Arial",
+      buttons: "poppins, 'Open Sans', Verdana, Arial",
+      links: "'Anonymous Pro', 'Open Sans', Verdana, Arial",
     },
     size: {
       small: "1rem",
@@ -33,5 +32,6 @@ export const theme = {
     medium: "800px",
     large: "1080px",
     xLarge: "1400px",
+    xxLarge: "1920px",
   },
 };
