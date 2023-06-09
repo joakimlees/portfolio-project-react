@@ -1,6 +1,8 @@
 import * as S from "./styles/index";
 import joakim from "../utils/images/joakim.jpg";
 import { Link } from "react-router-dom";
+import { ProjectCard } from "./ProjectCard";
+import { data } from "../utils/projects/data/projectsData";
 
 export function Home() {
   return (
@@ -38,10 +40,12 @@ export function Home() {
           <p>I'm passionate about programming and Front-End Web development.</p>
         </article>
       </section>
-      <section>
+      <section className="projects-section">
         <h2>Projects</h2>
         <ul>
-          <li></li>
+          {data.map(project => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </ul>
       </section>
     </S.Home>

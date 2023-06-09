@@ -108,4 +108,20 @@ export const Home = styled.main`
     color: ${({ theme }) => theme.color.white};
     text-align: center;
   }
+
+  .projects-section {
+    max-width: 1200px;
+    margin: 0px auto 200px;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      list-style: none;
+    }
+  }
 `;
