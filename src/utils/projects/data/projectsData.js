@@ -27,4 +27,12 @@ export const data = [
     github: "https://github.com/joakimlees/joakim-lee-sletten-semester-project-2",
     hosted_url: "https://joakimlees-auction-house-project.netlify.app/",
   },
+ {
+    id: 3,
+    title: "test",
+    image: auctionHouse,
+    description: "My semester project for, my second and final year at Noroff",
+    github: "https://github.com/joakimlees/joakim-lee-sletten-semester-project-2",
+    hosted_url: "https://joakimlees-auction-house-project.netlify.app/",
+  },
 ];
