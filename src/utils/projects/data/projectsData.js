@@ -29,10 +29,10 @@ export const data = [
   },
  {
     id: 3,
-    title: "test",
-    image: auctionHouse,
-    description: "My semester project for, my second and final year at Noroff",
-    github: "https://github.com/joakimlees/joakim-lee-sletten-semester-project-2",
-    hosted_url: "https://joakimlees-auction-house-project.netlify.app/",
+    title: "Blogg Website Project",
+    image: "",
+    description: "My Exam to finish off my first year at Noroff",
+    github: "https://github.com/Noroff-FEU-Assignments/project-exam-1-joakimlees",
+    hosted_url: "https://joakimlees-blog-site-project.netlify.app/",
   },
 ];
